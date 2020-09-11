@@ -1,0 +1,82 @@
+/*
+header img {
+    width: 500px;
+    position: relative;
+    animation-name: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+img:hover {
+    animation-play-state: paused;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+
+@media (max-width:800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+@keyframes jump {
+    0% {background-color: aquamarine; top: 0}
+    50% {background-color: lightblue; top: 20px}
+    100% {background-color: aquamarine; top: 0}
+}
+
+.title {
+    display: 
+    box-sizing: border-box;
+    font-family: 'Long Cang', cursive;
+    color: paleturquoise;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 27px;
+    transition-delay: 1s;
+    transition: transform 0.5s;
+}
+
+.title:hover {
+    transform: rotate(15deg);
+}
+
+.image {
+    margin: 0 auto;
+    border-radius: 40px 80px;
+    height: 248px;
+    width: 440px;
+    background-image: linear-gradient(to right bottom, 
+        rgba(255, 0, 0, 0.8), 
+        rgba(79, 133, 219, 0.8)), 
+        url(Pictures/Field%20Sunset.jpeg);
+    background-size: contain;
+    transition: transform 0.18s;
+    box-shadow: 20px 25px 20px rgba(0,0,0,0.8);
+    background-repeat: no-repeat;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.image:hover {
+    box-shadow: 8px 10px 20px;
+    transform: translate(10px, 15px);
+}
+
+hr{
+    width: 500px;
+    margin: 0 auto;
+    border-style: groove;
+}
+*/

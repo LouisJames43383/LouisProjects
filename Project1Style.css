@@ -1,3 +1,232 @@
-.header {
+html {
+    background-image: linear-gradient(to right, #2b2a5c, #63345e);
+}
+
+.UEP {
+    position: absolute;
+    left: 350px;
+    right: 350px;
+}
+
+#controller {
+    max-width: 1500px;
+}
+
+#smaller {
+    max-width: 800px;
+}
+
+.UEP h1 {
+    width: 1250px;
+    font-family: 'Poiret One', cursive;
+}
+
+.UEP p {
+    align-content: center;
+    width: 1200px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 17px;
+}
+
+.UEP img {
+    max-width: 1200px;
+}
+
+.essayBody p{
+    align-content: center;
+    width: 1200px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 19px;
+}
+
+.essayBody h1 {
+    width: 1250px;
+    font-family: 'Poiret One', cursive;
+}
+
+.essayBody h2 {
     text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+}
+
+.essayBody h3 {
+    font-family: 'Poiret One', cursive;
+}
+
+.essayBody I {
+    font-size: 21px;
+    color: #fff69f;
+}
+
+.essayBody ul {
+    list-style: none;
+    color: #e2dddf;
+    font-size: 20px;
+    width: 1000px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 18px;
+}
+
+.essayBody ul li::before {
+    display: inline-block;
+    content: "\2022";
+    color: #a0ffe3;
+    width: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: #e2dddf;
+    font-size: 20px;
+}
+
+.indexBody {
+    position: absolute;
+    left: 380px;
+    width: 700px;
+}
+
+.essayBody {
+    position: absolute;
+    left: 350px;
+    right: 350px;
+}
+
+.essayBody img {
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.essayFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.essayFlex img {
+    max-width: 800px;
+}
+
+.subtitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lp1::first-letter {
+    color: #ff2a6d;
+    font-size: 40px;
+}
+
+.lp2::first-letter {
+    color: #85ebd9;
+    font-size: 40px;
+}
+
+.indexBody h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+}
+
+.indexBody p {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 19px;
+}
+
+.indexBody img {
+    width: 450px;
+    position: absolute;
+    left: 720px;
+    top: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 38px;
+    color: aliceblue;
+}
+
+h3 {
+    color: #65dc98;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: #fe75fe;
+}
+
+.slogan {
+    transition: transform 0.3s;
+}
+
+.slogan:hover {
+    transform: rotate(15deg);
+}
+
+.header h1 {
+    text-align: center;
+    color: cyan;
+    font-size: 120px;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+.links-container {
+    padding: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+a {
+    color: whitesmoke;
+    font-family: 'Grandstander', cursive;
+}
+
+a.home {
+    color: #ff2a6d;
+}
+
+a.UEProject {
+    color: #ff2a6d;
+}
+
+a.Essay {
+    color: #ff2a6d;
+}
+
+a.WCM {
+    color: #ff2a6d;
+}
+
+a:hover {
+    color: #ff2a6d;
+}
+
+.linkbox li:hover {
+    transform: translate(3px, 3px);
+}
+
+.linkbox {
+    margin: 20px 30px;
+}
+
+hr{
+    width: 1200px;
+    border-style: groove;
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    width: 1150px;
+    background-color: #6287f8;
 }
