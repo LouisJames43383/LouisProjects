@@ -1,4 +1,44 @@
 /*
+<!--
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+    <title>Project 2 (Aframe Project)</title>
+</head>
+        <a-entity position="0 2.25 -15" particle-system="preset:rain;duration:NaN;maxAge:1;positionSpread:100 100 100;rotationAngle:3.14;accelerationValue:0 3 0;accelerationSpread:2 1 2;velocityValue:0 75 0;velocitySpread:10 50 10;color:#FFFFFF;size:0.4;texture:https://cdn.rawgit.com/IdeaSpaceVR/aframe-particle-system-component/master/dist/images/raindrop.png"></a-entity>
+            <a-box
+               position="-2.309 2.2 -9" metalness="1" src="Pictures/paper_texture.jpg" color="blue" scale="2 2 2"
+                animation="property: material.color;
+                         from: #ff2a6d;
+                         to: #85ebd9;
+                         dur: 2000;
+                         dir: alternate;
+                         easing: linear;
+                         loop: true;"
+                animation__opacity="property: material.opacity;
+                                    from: 1;
+                                    to: 0;
+                                    dur: 2100;
+                                    dir: alternative;
+                                    easing: linear;
+                                    loop: true;"              
+            ></a-box>
+            <a-sphere color="tomato" position="0 3 -10"
+                animation="property: position;
+                        from: 0 3 -10;
+                        to: 1 3 -10;
+                        dur: 1000;
+                        easing: linear;
+                        dir: alternate;
+                        loop: true;"
+            ></a-sphere>
+            <a-sky color="skyblue"></a-sky>
+            <a-obj-model position="20 0 -50" src="assets/tree/arvore_lowpoly.obj" mtl="assets/tree/arvore_lowpoly.mtl"></a-obj-model>
+            <a-gltf-model src="assets/glTF/wooden%20crate.glb"></a-gltf-model>
+-->
 header img {
     width: 500px;
     position: relative;
